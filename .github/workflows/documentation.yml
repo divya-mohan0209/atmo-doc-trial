@@ -28,4 +28,6 @@ jobs:
       - name: Push to Github Pages branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./publish.sh
+        run: |
+          cd ..
+          ./publish.sh
