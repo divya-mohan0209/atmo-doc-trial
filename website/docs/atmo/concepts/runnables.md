@@ -4,9 +4,7 @@ When building an application with Atmo, you segment your application's logic int
 
 Runnables are completely independent from one another, and have no knowledge of each other's execution. Runnables take an input from Atmo, use the **Runnable API** to run your application logic, and then return an output.
 
-{% hint style="info" %}
 You can see some example Runnables in the [example project](https://github.com/suborbital/atmo/tree/main/example-project).
-{% endhint %}
 
 Atmo loads a **Bundle** of Runnables at startup and uses your application **Directive** \(discussed next\) to set up and execute your application. Runnables are executed using a job scheduler, meaning that Atmo will "figure out" how to run your application as you've designed, rather than needing to imperatively call functions and structure a large code project like you might be used to with other frameworks.
 
