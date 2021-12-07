@@ -29,5 +29,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd ..
+          chmod 755 publish.sh
           ./publish.sh
