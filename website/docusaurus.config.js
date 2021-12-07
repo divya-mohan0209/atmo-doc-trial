@@ -36,8 +36,8 @@ module.exports = {
   url: 'https://docs.suborbital.dev',
   baseUrl: '/',
   favicon: 'img/SOS_SubOrb-Icon-FullColour.ico',
-  organizationName: 'suborbital',
-  projectName: 'docs',
+  organizationName: 'divya-mohan0209',
+  projectName: 'atmo-doc-trial',
   themeConfig: {
 //    algolia: {
 //      apiKey: '',
