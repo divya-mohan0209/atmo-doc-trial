@@ -34,7 +34,7 @@ module.exports = {
   title: 'Suborbital Docs Home',
   tagline: 'Use the power of WebAssembly to build delightful software faster, without compromising security, performance, or developer experience.',
   url: 'https://docs.suborbital.dev',
-  baseUrl: '/',
+  baseUrl: '/atmo-doc-trial/',
   favicon: 'img/SOS_SubOrb-Icon-FullColour.ico',
   organizationName: 'divya-mohan0209',
   projectName: 'atmo-doc-trial',
