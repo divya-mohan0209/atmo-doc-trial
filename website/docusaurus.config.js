@@ -38,6 +38,8 @@ module.exports = {
   favicon: 'img/SOS_SubOrb-Icon-FullColour.ico',
   organizationName: 'divya-mohan0209',
   projectName: 'atmo-doc-trial',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   themeConfig: {
 //    algolia: {
 //      apiKey: '',
